@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es"> <!--etiqueta obligatoria.-->
+    <head><!--etiqueta en donde va el encabezado.-->
+        <meta charset="utf-8"/><!--esta etiqueta sirve para poner caracteres especiales cuándo se abra la página en distintos ordenadores.-->
+        <title>Primera vez con html.</title> <!--etiqueta para poner los titulos de las páginas.-->
+        <meta name="description" content="Etsta es mi primera página web."/> <!--esta etiqueta sirve para describir el contenido de la página web-->
+        <meta name="author" content="Orveo Di Luca"/>
+        <meta name="keywords" content="Titulo , mi primera página"/>
+        <link rel="stylesheet" href="estilo.css"> <!--etiqueta para hacer llamado del otro archivo css-->
+    </head>
+    <body><!--etiqueta en donde va el cuerpo de la página-->
+        <div id="division"><!--etiqueta para crear una división lógica existente en la página-->
+            <header id="cabecera"><!--cabecera-->
+                <h1>Mi Blog</h1> <!--etiqueta para poner el título en negrita y grueso-->
+                <h2></h2> <!--etiqueta para poner un título de tamaño más pequeño-->
+                <h3></h3>
+                <h4></h4>
+                <h5></h5>
+                <h6></h6>
+            </header>
+    
+            <nav id="navegacion"><!--navegación--><!--, atributo para agregar colores al fondo-->
+                <ul><!--etiqueta pra poner listas desordenadas, o bien conocidos como opciones para navegar.-->
+                    <li>Principal</li>
+                    <li>Ayuda</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+            <section class="seccion"><!--se encarga de almacenar el contenido principal de la página.-->
+                <article>
+                    <time datetime="Domingo,10 de abril de 2011">Domingo, 10 de abril de 2011</time>  
+                    <hgroup><!--etiqueta para agrupar las etiquetas h, esto funciona para que las etiquetas h no tengan las mismas jerarquias.-->
+                        <h1>Primer artículo.</h1>
+                        <h3>Subtitulo del primer artículo</h3>
+                    </hgroup>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti excepturi sit doloribus at cumque, impedit suscipit aperiam assumenda iure quia? Nostrum culpa facere harum porro ipsum! Veritatis, <cite>placeat fuga. Ea?</cite><!--etiqueta para poner las citas o cualquier otra cosa en una forma diferente--></p> <!--etiqueta para poner párrafos.--> 
+                    <address><!--etiqieta para que el navegador sepa que la etiqueta a es una dirección de internet-->
+                        <img src="images/los-roques-2.jpg"> <!--etiqueta que permite poner la imagen en el sitio web-->
+                    </address>
+                    <a href="http://faztweb.com">Página recomendada.</a><!--etiqueta para que nos lleve de una página a otra que queremos. HIPERENLACES-->
+                </article>
+                <article>
+                    <time datetime="Domingo, 8 de julio de 2011">Domingo,8 de julio de 2011</time>
+                    <hgroup>
+                        <h1>Segundo artículo.</h1>
+                        <h3>Subtitulo del segundo artículo.</h3>
+                    </hgroup>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, magni.</p>
+                </article>
+            </section>
+            <aside class="ancho"><!--esta etiqueta representa que el contenido es parte de la página pero no es importante, en este caso contenido lateral-->
+                <blockquote cite="http://facebook.com">
+                    <h4>Archivo</h4>
+                </blockquote>
+                <blockquote cite="http://google.com">
+                    <h4>Acerca de</h4>
+                </blockquote> 
+            </aside> 
+            
+            <footer class="pie"><!--etiqueta para el pie de página-->
+                Derechos reservados 6 de diciembre de 2022.
+            </footer>
+                
+        </div>
+        
+    </body>
+</html>
+    
+    
